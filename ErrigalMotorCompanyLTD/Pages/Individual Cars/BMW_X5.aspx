@@ -1,0 +1,88 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ErrigalMotorCompanyLTD/Pages/EMC.master" AutoEventWireup="true" CodeFile="BMW_X5.aspx.cs" Inherits="ErrigalMotorCompanyLTD_Pages_Individual_Cars_BMW_X5" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <script src="../../Scripts/ImageGallery.js"></script>
+    <link href="../../../Styles/ImageGallery.css" rel="stylesheet" />
+    <link href="../../../Styles/IndividualCar.css" rel="stylesheet" />
+    <link href="../../../Styles/Stock.css" rel="stylesheet" />
+
+    <h3>2014 BMW X5 3.0 XDRIVE 255BHP</h3>
+    <h3>£26495</h3>
+
+    <asp:Button ID="btnAddToBasket" runat="server" Text="Add To Basket" OnClick="btnAddToBasket_Click" />
+    <asp:Label ID="lblCart" runat="server" Text="Cart : (0)"></asp:Label>
+    <div class="h3align">
+    </div>
+    <div>
+        <!-- The grid: four columns -->
+        <div class="row">
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 1.jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 2.jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 3.jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 4.jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 5.jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 6 .jpg" alt="" onclick="myFunction(this);">
+            </div>
+            <div class="column">
+                <img src="../../../Images/BMW X5/BMW X5 7.jpg" alt="" onclick="myFunction(this);">
+            </div>
+        </div>
+
+        <!-- The expanding image container -->
+        <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width: 100%">
+
+            <!-- Image text -->
+            <div id="imgtext"></div>
+        </div>
+
+    </div>
+
+
+
+    <table style="text-align: left">
+        <tr>
+            <td>Contact Us: 07939664907</td>
+        </tr>
+        <tr>
+            <td>Email: sales@errigalmotorcompany.co.uk</td>
+        </tr>
+        <tr>
+            <td>36 Dundrod Road</td>
+        </tr>
+        <tr>
+            <td>Nutts Corner</td>
+        </tr>
+        <tr>
+            <td>Crumlim</td>
+        </tr>
+        <tr>
+            <td>Northern Ireland</td>
+        </tr>
+        <tr>
+            <td>BT29 4ST</td>
+        </tr>
+
+        
+    </table>
+
+</asp:Content>
+
+
